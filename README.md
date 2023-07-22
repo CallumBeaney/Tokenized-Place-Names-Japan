@@ -5,7 +5,7 @@ This is written in datasets and dictionaries as `かくだし`.
 Is that broken down as `か,く,だし`, or `かく,だ,し`?  
 A Japanese person will know that it is the latter intuitively.  
   
-Testing NLP and AI modules, less than 40% were accurate across the 1737 entries in this list. This is because of the irregular pronunciations used for kanji when they are used in placenames. `角田市` is easy to identify; many placename kanji readings deviate significantly from common readings, to the point that manually referencing dictionaries becomes necessary.  
+NLP and AI parsers were less than 40% accurate across the 1737 entries in this list. This is because many placename kanji readings deviate significantly from common readings, to the point that manually referencing dictionaries and even historical speculation becomes necessary.  
   
 I manually tokenised these placenames as such. There is a JSON with keys, a JSON as objects, and a CSV for GUI editing. Because I've done it by hand, and because I'm not Japanese, there may be some discrepancies.  
   
