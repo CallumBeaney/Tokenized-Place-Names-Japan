@@ -1,4 +1,4 @@
-# Tokenised Hiragana of 1714 of Japan's Municipalities' Placenames List (日本地方自治体の地名のトークン化されたリスト)  
+# List Detailing 1714 of Japan's Municipalities' Placenames with Tokenised Hiragana (日本地方自治体の地名のトークン化されたリスト)  
   
 Consider the town Kakuda-Shi `角田市`.  
 This is written in datasets and dictionaries as `かくだし`.  
