@@ -1,11 +1,11 @@
-# List Detailing 1714 of Japan's Municipalities' Placenames with Tokenised Hiragana (日本地方自治体の地名のトークン化されたリスト)  
+# List Detailing 1714 of Japan's Municipalities' Placenames with Tokenised Hiragana (日本地方自治体の地名のトークン化された平仮名からなるデータセット)  
   
 Consider the town Kakuda-Shi `角田市`.  
 This is written in datasets and dictionaries as `かくだし`.  
 Is that broken down as `か,く,だし`, or `かく,だ,し`?  
 A Japanese person will know that it is the latter intuitively.  
   
-NLP and AI parsers I tried were highly innaccurate across the 1737 entries in this list. This is because many placename kanji readings deviate significantly from common readings, to the point that manually referencing dictionaries and even historical speculation becomes necessary.  
+NLP and AI parsers were highly innaccurate identifying the context-specific reading of a given placename-nested kanji across the 1737 entries in this list (1714 municipalities + 23 regional subdivision 'wards' of Tokyo). This is because many placename kanji readings deviate significantly from common readings. 
   
 I manually tokenised these placenames as such. There is a JSON with keys, a JSON as objects, and a CSV for GUI editing. Because I've done it by hand, and because I'm not Japanese, there may be some discrepancies.  
   
