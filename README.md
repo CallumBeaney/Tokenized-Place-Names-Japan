@@ -2,7 +2,7 @@
   
 Consider the town Kakuda-Shi `角田市`.  
 This is written in datasets and dictionaries as `かくだし`.  
-Is that broken down as `か,く,だし`, or `かく,だ,し`?  
+Is that broken down as `か,く,だし`, `か,くだ,し`, or `かく,だ,し`?  
 A Japanese person will know that it is the latter intuitively.  
   
 NLP and AI parsers were highly innaccurate identifying the context-specific reading of a given placename-nested kanji across the 1737 entries in this list (1714 municipalities + 23 regional subdivision 'wards' of Tokyo). This is because many placename kanji readings deviate significantly from common readings. 
